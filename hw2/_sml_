@@ -1,0 +1,1888 @@
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:66.8-66.10 Error: unbound type constructor: xs
+
+hw2.sml:66.29-66.31 Error: unbound variable or constructor: xs
+
+hw2.sml:66.59-66.91 Error: operator and operand do not agree [type mismatch]
+  operator domain: string list list * string
+  operand:         [E] * {last:'Y, middle:'X; 'Z}
+  in expression:
+    get_substitutions2 (x,full_name)
+
+val it = () : unit
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:66.8-66.10 Error: unbound type constructor: xs
+
+hw2.sml:66.29-66.31 Error: unbound variable or constructor: xs
+
+hw2.sml:66.59-66.91 Error: operator and operand do not agree [type mismatch]
+  operator domain: string list list * string
+  operand:         [E] * {last:'Y, middle:'X; 'Z}
+  in expression:
+    get_substitutions2 (x,full_name)
+
+val it = () : unit
+
+- [] @ [["123"]];
+val it = [["123"]] : string list list
+
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:66.8-66.10 Error: unbound type constructor: xs
+
+hw2.sml:66.29-66.31 Error: unbound variable or constructor: xs
+
+hw2.sml:66.59-66.91 Error: operator and operand do not agree [type mismatch]
+  operator domain: string list list * string
+  operand:         [E] * {last:'Y, middle:'X; 'Z}
+  in expression:
+    get_substitutions2 (x,full_name)
+
+val it = () : unit
+
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:66.8-66.10 Error: unbound type constructor: xs
+
+hw2.sml:66.29-66.31 Error: unbound variable or constructor: xs
+
+hw2.sml:66.59-66.91 Error: operator and operand do not agree [type mismatch]
+  operator domain: string list list * string
+  operand:         [E] * {last:'Y, middle:'X; 'Z}
+  in expression:
+    get_substitutions2 (x,full_name)
+
+val it = () : unit
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:51.8-51.10 Error: unbound type constructor: xs
+
+hw2.sml:51.29-51.31 Error: unbound variable or constructor: xs
+
+hw2.sml:51.15-51.91 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: 'Z list
+  operand:         string list list * string -> string list
+  in expression:
+    mk_name_list get_substitutions2
+
+hw2.sml:43.1-52.8 Error: unresolved flex record (need to know the names of ALL the fields
+ in this context)
+  type: {last:_, middle:_; 'Z}
+
+val it = () : unit
+
+- ["123"]::[["456"]];
+val it = [["123"],["456"]] : string list list
+
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:51.8-51.10 Error: unbound type constructor: xs
+
+hw2.sml:51.29-51.31 Error: unbound variable or constructor: xs
+
+hw2.sml:51.59-51.91 Error: operator and operand do not agree [type mismatch]
+  operator domain: string list list * string
+  operand:         [E] * {last:'Y, middle:'X; 'Z}
+  in expression:
+    get_substitutions2 (x,full_name)
+
+val it = () : unit
+
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:48.13-48.15 Error: unbound type constructor: xs
+
+hw2.sml:48.96-48.98 Error: unbound variable or constructor: xs
+
+hw2.sml:48.38-48.55 Error: operator and operand do not agree [type mismatch]
+  operator domain: {middle:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {middle=middle,...} => middle) full_name
+
+hw2.sml:48.64-48.79 Error: operator and operand do not agree [type mismatch]
+  operator domain: {last:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {last=last,...} => last) full_name
+
+hw2.sml:51.17-51.54 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: string * string list
+  operand:         string * {first:[E], last:_, middle:_} list
+  in expression:
+    full_name :: mk_name_list possibleNames
+
+val it = () : unit
+
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:48.13-48.15 Error: unbound type constructor: xs
+
+hw2.sml:48.96-48.98 Error: unbound variable or constructor: xs
+
+hw2.sml:48.38-48.55 Error: operator and operand do not agree [type mismatch]
+  operator domain: {middle:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {middle=middle,...} => middle) full_name
+
+hw2.sml:48.64-48.79 Error: operator and operand do not agree [type mismatch]
+  operator domain: {last:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {last=last,...} => last) full_name
+
+hw2.sml:51.17-51.54 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: string * string list
+  operand:         string * {first:[E], last:_, middle:_} list
+  in expression:
+    full_name :: mk_name_list possibleNames
+
+val it = () : unit
+
+- use 
+= 
+= ;
+val it = fn : string -> unit
+
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:49.51 Error: syntax error: replacing  COMMA with  OF
+
+[unexpected exception: Compile]
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:19.24-19.46
+             ../compiler/TopLevel/interact/evalloop.sml:45.54
+             ../compiler/TopLevel/interact/evalloop.sml:306.20-306.23
+             ../compiler/TopLevel/interact/interact.sml:65.13-65.16
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:49.29 Error: syntax error: replacing  COMMA with  WILD
+
+[unexpected exception: Compile]
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:19.24-19.46
+             ../compiler/TopLevel/interact/evalloop.sml:45.54
+             ../compiler/TopLevel/interact/evalloop.sml:306.20-306.23
+             ../compiler/TopLevel/interact/interact.sml:65.13-65.16
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:48.16-48.21 Error: unbound type constructor: names
+
+hw2.sml:48.105-48.110 Error: unbound variable or constructor: names
+
+hw2.sml:48.47-48.64 Error: operator and operand do not agree [type mismatch]
+  operator domain: {middle:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {middle=middle,...} => middle) full_name
+
+hw2.sml:48.73-48.88 Error: operator and operand do not agree [type mismatch]
+  operator domain: {last:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {last=last,...} => last) full_name
+
+hw2.sml:51.17-51.54 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: string * string list
+  operand:         string * {first:[E], last:_, middle:_} list
+  in expression:
+    full_name :: mk_name_list possibleNames
+
+val it = () : unit
+
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:48.48-48.65 Error: operator and operand do not agree [type mismatch]
+  operator domain: {middle:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {middle=middle,...} => middle) full_name
+
+hw2.sml:48.74-48.89 Error: operator and operand do not agree [type mismatch]
+  operator domain: {last:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {last=last,...} => last) full_name
+
+hw2.sml:51.17-51.54 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: string * string list
+  operand:         string * {first:string, last:_, middle:_} list
+  in expression:
+    full_name :: mk_name_list possibleNames
+
+val it = () : unit
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:48.48-48.65 Error: operator and operand do not agree [type mismatch]
+  operator domain: {middle:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {middle=middle,...} => middle) full_name
+
+hw2.sml:48.74-48.89 Error: operator and operand do not agree [type mismatch]
+  operator domain: {last:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {last=last,...} => last) full_name
+
+hw2.sml:51.17-51.54 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: string * string list
+  operand:         string * {first:string, last:_, middle:_} list
+  in expression:
+    full_name :: mk_name_list possibleNames
+
+val it = () : unit
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:48.48-48.65 Error: operator and operand do not agree [type mismatch]
+  operator domain: {middle:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {middle=middle,...} => middle) full_name
+
+hw2.sml:48.74-48.89 Error: operator and operand do not agree [type mismatch]
+  operator domain: {last:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {last=last,...} => last) full_name
+
+hw2.sml:51.17-51.54 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: string * string list
+  operand:         string * {first:string, last:_, middle:_} list
+  in expression:
+    full_name :: mk_name_list possibleNames
+
+val it = () : unit
+
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:48.48-48.65 Error: operator and operand do not agree [type mismatch]
+  operator domain: {middle:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {middle=middle,...} => middle) full_name
+
+hw2.sml:48.74-48.89 Error: operator and operand do not agree [type mismatch]
+  operator domain: {last:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {last=last,...} => last) full_name
+
+hw2.sml:51.17-51.55 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: string * string list
+  operand:         string * {first:string, last:_, middle:_} list
+  in expression:
+    full_name :: mk_name_list possibleNames
+
+val it = () : unit
+
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:35.13-38.44 Warning: match nonexhaustive
+          (xs :: xss,acc) => ...
+  
+
+val same_string = fn : string * string -> bool
+val all_except_option = fn : string * string list -> string list option
+val get_substitutions1 = fn : string list list * string -> string list
+val get_substitutions2 = fn : string list list * string -> string list
+datatype suit = Clubs | Diamonds | Hearts | Spades
+datatype rank = Ace | Jack | King | Num of int | Queen
+type card = suit * rank
+datatype color = Black | Red
+datatype move = Discard of suit * rank | Draw
+exception IllegalMove
+
+val it = () : unit
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:48.48-48.65 Error: operator and operand do not agree [type mismatch]
+  operator domain: {middle:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {middle=middle,...} => middle) full_name
+
+hw2.sml:48.74-48.89 Error: operator and operand do not agree [type mismatch]
+  operator domain: {last:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {last=last,...} => last) full_name
+
+hw2.sml:51.18-51.58 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: string * string list
+  operand:         string * {first:string, last:_, middle:_} list
+  in expression:
+    full_name :: make_name_list possibleNames
+
+val it = () : unit
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:49.24-49.41 Error: operator and operand do not agree [type mismatch]
+  operator domain: {middle:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {middle=middle,...} => middle) full_name
+
+hw2.sml:49.50-49.65 Error: operator and operand do not agree [type mismatch]
+  operator domain: {last:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {last=last,...} => last) full_name
+
+hw2.sml:50.8-52.45 Error: types of rules do not agree [tycon mismatch]
+  earlier rule(s): 'Z list -> string list
+  this rule: 'Z list -> {first:string, last:_, middle:_} list
+  in rule:
+    xs => makeNameList possibleNames
+
+val it = () : unit
+
+- use "hw2.sml";
+[opening hw2.sml]
+hw.sml:49.21-49.38 Error: operator and operand do not agree [type mismatch]
+  operator domain: {middle:'Y; 'Z}
+  operand:         string
+  in expression:
+   (fn {middle=middle,...} => middle) full_name
+
+hw2.sml:49.47-49.62 Error: operator and operand do not agree [type mismatch]
+  operator domain: {last:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {last=last,...} => last) full_name
+
+hw2.sml:50.8-52.45 Error: types of rules do not agree [tycon mismatch]
+  earlier rule(s): 'Z list -> string list
+  this rule: 'Z list -> {first:string, last:_, middle:_} list
+  in rule:
+    xs => makeNameList possibleNames
+
+val it = () : unit
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:49.21-49.38 Error: operator and operand do not agree [type mismatch]
+  operator domain: {middle:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {middle=middle,...} => middle) full_name
+
+hw2.sml:49.47-49.62 Error: operator and operand do not agree [type mismatch]
+  operator domain: {last:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {last=last,...} => last) full_name
+
+hw2.sml:52.17-52.54 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: string * string list
+  operand:         string * {first:string, last:_, middle:_} list
+  in expression:
+    full_name :: makeNameList possibleNames
+
+val it = () : unit
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:49.21-49.38 Error: operator and operand do not agree [type mismatch]
+  operator domain: {middle:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {middle=middle,...} => middle) full_name
+
+hw2.sml:49.47-49.62 Error: operator and operand do not agree [type mismatch]
+  operator domain: {last:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {last=last,...} => last) full_name
+
+hw2.sml:50.8-50.45 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: string * string list
+  operand:         string * {first:string, last:_, middle:_} list
+  in expression:
+    full_name :: makeNameList possibleNames
+
+val it = () : unit
+
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:49.21-49.38 Error: operator and operand do not agree [type mismatch]
+  operator domain: {middle:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {middle=middle,...} => middle) full_name
+
+hw2.sml:49.47-49.62 Error: operator and operand dnot agree [type mismatch]
+  operator domain: {last:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {last=last,...} => last) full_name
+
+hw2.sml:50.8-50.45 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: string * string list
+  operand:         string * {first:string, last:_, middle:_} list
+  in expression:
+    full_name :: makeNameList possibleNames
+
+val it = () : unit
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:49.24-49.41 Error: operator and operand do not agree [type mismatch]
+  operator domain: {middle:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {middle=middle,...} => middle) full_name
+
+hw2.sml:49.50-49.65 Error: operator and operand do not agree [type mismatch]
+  operator domain: {last:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {last=last,...} => last) full_name
+
+hw2.sml:50.8-50.45 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: string * string list
+  operand:         string * {first:string, last:_, middle:_} list
+  in expression:
+    full_name :: makeNameList possibleNames
+
+val it = () : unit
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:49.24-49.41 Error: operator and operand do not agree [type mismatch]
+  operator domain: {middle:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {middle=middle,...} => middle) full_name
+
+hw2.sml:49.50-49.65 Error: operator and operand do not agree [type mismatch]
+  operator domain: {last:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {last=last,...} => last) full_name
+
+hw2.sml:50.8-50.47 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: string * string list
+  operand:         string * {first:string, last:_, middle:_} list
+  in expression:
+    full_name :: makeNameList possibleNames
+
+val it = () : unit
+
+- {first="123", last="456"};
+val it = {first="123",last="456"} : {first:string, last:string}
+
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:49.24-49.41 Error: operator and operand do not agree [type mismatch]
+  operator domain: {middle:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {middle=middle,...} => middle) full_name
+
+hw2.sml:49.50-49.65 Error: operator and operand do not agree [type mismatch]
+  operator domain: {last:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {last=last,...} => last) full_name
+
+hw2.sml:50.8-50.47 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: string * string list
+  operand:         string * {first:string, last:_, middle:_} list
+  in expression:
+    full_name :: makeNameList possibleNames
+
+val it = () : unit
+
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:49.24-49.41 Error: operator and operand do not agree [type mismatch]
+  operator domain: {middle:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {middle=middle,...} => middle) full_name
+
+hw2.sml:49.50-49.65 Error: operator and operand do not agree [type mismatch]
+  operator domain: {last:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {last=last,...} => last) full_name
+
+hw2.sml:50.8-50.47 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: string * string list
+  operand:         string * {first:string, last:_, middle:_} list
+  in expression:
+    full_name :: makeNameList possibleNames
+
+val it = () : unit
+
+- {first="123", last="456"}::[]
+= ;
+val it = [{first="123",last="456"}] : {first:string, last:string} list
+
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:49.24-49.41 Error: operator and operand do not agree [type mismatch]
+  operator domain: {middle:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {middle=middle,...} => middle) full_name
+
+hw2.sml:49.50-49.65 Error: operator and operand do not agree [type mismatch]
+  operator domain: {last:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {last=last,...} => last) full_name
+
+hw2.sml:50.8-50.46 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: string * string list
+  operand:         string * {first:string, last:_, middle:_} list
+  in expression:
+    full_name :: makeNameList possibleNames
+
+val it = () : unit
+
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:50.12-50.29 Error: operator and operand do not agree [type mismatch]
+  operator domain: {middle:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {middle=middle,...} => middle) full_name
+
+hw2.sml:51.10-51.25 Error: operator and operand do not agree [type mismatch]
+  operator domain: {last:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {last=last,...} => last) full_name
+
+hw2.sml:52.8-52.46 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: string * string list
+  operand:         string * {first:string, last:_, middle:_} list
+  in expression:
+    full_name :: makeNameList possibleNames
+
+val it = () : unit
+
+
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:50.12-50.29 Error: operator and operand do not agree [type mismatch]
+  operator domain: {middle:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {middle=middle,...} => middle) full_name
+
+hw2.sml:51.10-51.25 Error: operator and operand do not agree [type mismatch]
+  operator domain: {last:'Y; 'Z}
+  operand:         string
+  in expression:
+    (fn {last=last,...} => last) full_name
+
+hw2.sml:52.8-52.46 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: string * string list
+  operand:         string * {first:string, last:_, middle:_} list
+  in expression:
+    full_name :: makeNameList possibleNames
+
+val it = () : unit
+
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:35.13-38.44 Warning: match nonexhaustive
+          (xs :: xss,acc) => ...
+  
+
+val same_string = fn : string * string -> bool
+val all_except_option = fn : string * string list -> string list option
+val get_substitutions1 = fn : string list list * string -> string list
+val get_substitutions2 = fn : string list list * string -> string list
+val similar_names = fn
+  : string list list * {first:string, last:'a, middle:'b}
+     -> {first:string, last:'a, middle:'b} list
+datatype suit = Clubs | Diamonds | Hearts | Spades
+datatype rank = Ace | Jack | King | Num of int | Queen
+type card = suit * rank
+datatype color = Black | Red
+datatype move = Discard of suit * rank | Draw
+exception IllegalMove
+
+val it = () : unit
+
+- use "hw2test.sml";
+[opening hw2test.sml]
+[opening hw2.sml]
+hw2.sml:35.13-38.44 Warning: match nonexhaustive
+          (xs :: xss,acc) => ...
+  
+
+val same_string = fn : string * string -> bool
+val all_except_option = fn : string * string list -> string list option
+val get_substitutions1 = fn : string list list * string -> string list
+val get_substitutions2 = fn : string list list * string -> string list
+val similar_names = fn
+  : string list list * {first:string, last:'a, middle:'b}
+     -> {first:string, last:'a, middle:'b} list
+datatype suit = Clubs | Diamonds | Hearts | Spades
+datatype rank = Ace | Jack | King | Num of int | Queen
+type card = suit * rank
+datatype color = Black | Red
+datatype move = Discard of suit * rank | Draw
+exception IllegalMove
+
+val it = () : unit
+
+val test1_1 = true : bool
+
+val test1_2 = true : bool
+
+val test1_3 = true : bool
+
+val test1_4 = true : bool
+
+val test1_5 = true : bool
+
+val test2_1 = true : bool
+
+val test2_2 = true : bool
+
+val test2_3 = true : bool
+
+val test2_4 = true : bool
+
+val test3_1 = true : bool
+
+val test3_2 = true : bool
+
+val test3_3 = true : bool
+
+val test3_4 = true : bool
+
+val test4 = false : bool
+
+hw2test.sml:27.13-27.23 Error: unbound variable or constructor: card_color
+
+hw2test.sml:29.13-29.23 Error: unbound variable or constructor: card_value
+
+hw2test.sml:31.13-31.24 Error: unbound variable or constructor: remove_card
+
+hw2test.sml:33.13-33.27 Error: unbound variable or constructor: all_same_color
+
+hw2test.sml:35.13-35.22 Error: unbound variable or constructor: sum_cards
+
+hw2test.sml:37.14-37.19 Error: unbound variable or constructor: score
+
+hw2test.sml:39.14-39.23 Error: unbound variable or constructor: officiate
+
+hw2test.sml:41.14-41.23 Error: unbound variable or constructor: officiate
+
+hw2test.sml:46.16-46.25 Error: unbound variable or constructor: officiate
+
+val it = () : unit
+
+- similar_names(([["Fred","Fredrick"],["Elizabeth","Betty"],["Freddie","Fred","F"]],
+{first="Fred", middle="W", last="Smith"});stdIn:6.1 Error: syntax error found at EOF
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:35.13-38.44 Warning: match nonexhaustive
+          (xs :: xss,acc) => ...
+  
+
+val same_string = fn : string * string -> bool
+val all_except_option = fn : string * string list -> string list option
+val get_substitutions1 = fn : string list list * string -> string list
+val get_substitutions2 = fn : string list list * string -> string list
+val similar_names = fn
+  : string list list * {first:string, last:'a, middle:'b}
+     -> {first:string, last:'a, middle:'b} list
+datatype suit = Clubs | Diamonds | Hearts | Spades
+datatype rank = Ace | Jack | King | Num of int | Queen
+type card = suit * rank
+datatype color = Black | Red
+datatype move = Discard of suit * rank | Draw
+exception IllegalMove
+
+val it = () : unit
+
+- similar_names(([["Fred","Fredrick"],["Elizabeth","Betty"],["Freddie","Fred","F"]],
+{first="Fred", middle="W", last="Smith"});
+= =;;stdIn:4.1 Error: syntax error found at SEMICOLON
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:35.13-38.44 Warning: match nonexhaustive
+          (xs :: xss,acc) => ...
+  
+
+val same_string = fn : string * string -> bool
+val all_except_option = fn : string * string list -> string list option
+val get_substitutions1 = fn : string list list * string -> string list
+val get_substitutions2 = fn : string list list * string -> string list
+val similar_names = fn
+  : string list list * {first:string, last:'a, middle:'b}
+     -> {first:string, last:'a, middle:'b} list
+datatype suit = Clubs | Diamonds | Hearts | Spades
+datatype rank = Ace | Jack | King | Num of int | Queen
+type card = suit * rank
+datatype color = Black | Red
+datatype move = Discard of suit * rank | Draw
+exception IllegalMove
+
+val it = () : unit
+
+- similar_names(([["Fred","Fredrick"],["Elizabeth","Betty"],["Freddie","Fred","F"]],{first="Fred", middle="W", last="Smith"});
+= ;
+= ;
+= ;
+= ;
+stdIn:2.124-4.2 Error: syntax error: deleting  SEMICOLON SEMICOLON SEMICOLON
+
+- ;
+- similar_names(([["Fred","Fredrick"],["Elizabeth","Betty"],["Freddie","Fred","F"]],      |  : string list list * {first:string, last:'a, middle:'b}
+{first="Fred", middle="W", last="Smith"});  C-c C-c
+Interrupt
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- similar_names([["Fred","Fredrick"],["Elizabeth","Betty"],["Freddie","Fred","F"]],{first="Fred", middle="W", last="Smith"});
+stdIn:1.2-1.15 Error: unbound variable or constructor: similar_names
+
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:35.13-38.44 Warning: match nonexhaustive
+          (xs :: xss,acc) => ...
+  
+
+val same_string = fn : string * string -> bool
+val all_except_option = fn : string * string list -> string list option
+val get_substitutions1 = fn : string list list * string -> string list
+val get_substitutions2 = fn : string list list * string -> string list
+val similar_names = fn
+  : string list list * {first:string, last:'a, middle:'b}
+     -> {first:string, last:'a, middle:'b} list
+datatype suit = Clubs | Diamonds | Hearts | Spades
+datatype rank = Ace | Jack | King | Num of int | Queen
+type card = suit * rank
+datatype color = Black | Red
+datatype move = Discard of suit * rank | Draw
+exception IllegalMove
+
+val it = () : unit
+
+- similar_names([["Fred","Fredrick"],["Elizabeth","Betty"],["Freddie","Fred","F"]],{first="Fred", middle="W", last="Smith"});
+val it =
+  [{first="Fred",last="Smith",middle="W"},
+   {first="Fredrick",last="Smith",middle="W"}]
+  : {first:string, last:string, middle:string} list
+
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:35.13-38.44 Warning: match nonexhaustive
+          (xs :: xss,acc) => ...
+  
+
+val same_string = fn : string * string -> bool
+val all_except_option = fn : string * string list -> string list option
+val get_substitutions1 = fn : string list list * string -> string list
+val get_substitutions2 = fn : string list list * string -> string list
+val similar_names = fn
+  : string list list * {first:string, last:'a, middle:'b}
+     -> {first:string, last:'a, middle:'b} list
+datatype suit = Clubs | Diamonds | Hearts | Spades
+datatype rank = Ace | Jack | King | Num of int | Queen
+type card = suit * rank
+datatype color = Black | Red
+datatype move = Discard of suit * rank | Draw
+exception IllegalMove
+
+val it = () : unit
+
+- similar_names([["Fred","Fredrick"],["Elizabeth","Betty"],["Freddie","Fred","F"]],{first="Fred", middle="W", last="Smith"});
+val it =
+  [{first="Fred",last="Smith",middle="W"},
+   {first="Fredrick",last="Smith",middle="W"}]
+  : {first:string, last:string, middle:string} list
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:35.13-38.44 Warning: match nonexhaustive
+          (xs :: xss,acc) => ...
+  
+
+val same_string = fn : string * string -> bool
+val all_except_option = fn : string * string list -> string list option
+val get_substitutions1 = fn : string list list * string -> string list
+val get_substitutions2 = fn : string list list * string -> string list
+val similar_names = fn
+  : string list list * {first:string, last:'a, middle:'b}
+     -> {first:string, last:'a, middle:'b} list
+datatype suit = Clubs | Diamonds | Hearts | Spades
+datatype rank = Ace | Jack | King | Num of int | Queen
+type card = suit * rank
+datatype color = Black | Red
+datatype move = Discard of suit * rank | Draw
+exception IllegalMove
+
+val it = () : unit
+
+- similar_names([["Fred","Fredrick"],["Elizabeth","Betty"],["Freddie","Fred","F"]],{first="Fred", middle="W", last="Smith"});
+val it =
+  [{first="Fred",last="Smith",middle="W"},
+   {first="Fredrick",last="Smith",middle="W"}]
+  : {first:string, last:string, middle:string} list
+
+- get_substitutions1([["Fred","Fredrick"],["Elizabeth","Betty"],["Freddie","Fred","F"]], {first="Fred", middle="W", last="Smith"});
+stdIn:3.1-3.129 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: string list list * string
+  operand:         string list list
+                    * {first:string, last:string, middle:string}
+  in expression:
+    get_substitutions1
+    (("Fred" :: "Fredrick" :: nil) ::
+    ("Elizabeth" :: "Betty" :: nil) ::
+         ("Freddie" :: "Fred" :: "F" :: nil) :: nil,
+     {first="Fred",middle="W",last="Smith"})
+
+- get_substitutions1([["Fred","Fredrick"],["Elizabeth","Betty"],["Freddie","Fred","F"]],
+"Fred");
+= val it = ["Fredrick"] : string list
+
+- all_except_option("Fred", ["Freddie","Fred","F"]);
+val it = SOME ["Freddie","F"] : string list option
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:35.13-38.44 Warning: match nonexhaustive
+          (xs :: xss,acc) => ...
+  
+
+val same_string = fn : string * string -> bool
+val all_except_option = fn : string * string list -> string list option
+val get_substitutions1 = fn : string list list * string -> string list
+val get_substitutions2 = fn : string list list * string -> string list
+val similar_names = fn
+  : string list list * {first:string, last:'a, middle:'b}
+     -> {first:string, last:'a, middle:'b} list
+datatype suit = Clubs | Diamonds | Hearts | Spades
+datatype rank = Ace | Jack | King | Num of int | Queen
+type card = suit * rank
+datatype color = Black | Red
+datatype move = Discard of suit * rank | Draw
+exception IllegalMove
+
+val it = () : unit
+
+- get_substitutions1([["Fred","Fredrick"],["Elizabeth","Betty"],["Freddie","Fred","F"]],
+"Fred");
+= val it = ["Fredrick","Freddie","F"] : string list
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2.sml";
+[opening hw2.sml]
+val same_string = fn : string * string -> bool
+val all_except_option = fn : string * string list -> string list option
+val get_substitutions1 = fn : string list list * string -> string list
+val get_substitutions2 = fn : string list list * string -> string list
+val similar_names = fn
+  : string list list * {first:string, last:'a, middle:'b}
+     -> {first:string, last:'a, middle:'b} list
+datatype suit = Clubs | Diamonds | Hearts | Spades
+datatype rank = Ace | Jack | King | Num of int | Queen
+type card = suit * rank
+datatype color = Black | Red
+datatype move = Discard of suit * rank | Draw
+exception IllegalMove
+
+val it = () : unit
+
+- get_substitutions1([["Fred","Fredrick"],["Elizabeth","Betty"],["Freddie","Fred","F"]],
+"Fred");
+= val it = ["Fredrick","Freddie","F"] : string list
+
+- get_substitutions2([["Fred","Fredrick"],["Elizabeth","Betty"],["Freddie","Fred","F"]],
+"Fred");
+= val it = ["Freddie","F","Fredrick"] : string list
+
+- similar_names([["Fred","Fredrick"],["Elizabeth","Betty"],["Freddie","Fred","F"]],{first="Fred", middle="W", last="Smith"});
+val it =
+  [{first="Fred",last="Smith",middle="W"},
+   {first="Fredrick",last="Smith",middle="W"},
+   {first="Freddie",last="Smith",middle="W"},
+   {first="F",last="Smith",middle="W"}]
+  : {first:string, last:string, middle:string} list
+
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:68.1 Error: syntax error found at EOF
+
+[unexpected exception: Compile]
+
+uncaught exception Compile [Compile: "syntax error"]
+  raised at: ../compiler/Parse/main/smlfile.sml:19.24-19.46
+             ../compiler/TopLevel/interact/evalloop.sml:45.54
+             ../compiler/TopLevel/interact/evalloop.sml:306.20-306.23
+             ../compiler/TopLevel/interact/interact.sml:65.13-65.16
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2test.sml";
+[opening hw2test.sml]
+[opening hw2.sml]
+val same_string = fn : string * string -> bool
+val all_except_option = fn : string * string list -> string list option
+val get_substitutions1 = fn : string list list * string -> string list
+val get_substitutions2 = fn : string list list * string -> string list
+val similar_names = fn
+  : string list list * {first:string, last:'a, middle:'b}
+     -> {first:string, last:'a, middle:'b} list
+datatype suit = Clubs | Diamonds | Hearts | Spades
+datatype rank = Ace | Jack | King | Num of int | Queen
+type card = suit * rank
+datatype color = Black | Red
+datatype move = Discard of suit * rank | Draw
+exception IllegalMove
+val card_color = fn : suit -> color
+
+val it = () : unit
+
+val test1_1 = true : bool
+
+val test1_2 = true : bool
+
+val test1_3 = true : bool
+
+val test1_4 = true : bool
+
+val test1_5 = true : bool
+
+val test2_1 = true : bool
+
+val test2_2 = true : bool
+
+val test2_3 = true : bool
+
+val test2_4 = true : bool
+
+val test3_1 = true : bool
+
+val test3_2 = true : bool
+
+val test3_3 = true : bool
+
+val test3_4 = true : bool
+
+val test4 = true : bool
+
+hw2test.sml:27.5-27.46 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: suit
+  operand:         suit * rank
+  in expression:
+    card_color (Clubs,Num 2)
+
+hw2test.sml:29.13-29.23 Error: unbound variable or constructor: card_value
+
+hw2test.sml:31.13-31.24 Error: unbound variable or constructor: remove_card
+
+hw2test.sml:33.13-33.27 Error: unbound variable or constructor: all_same_color
+
+hw2test.sml:35.13-35.22 Error: unbound variable or constructor: sum_cards
+
+hw2test.sml:37.14-37.19 Error: unbound variable or constructor: score
+
+hw2test.sml:39.14-39.23 Error: unbound variable or constructor: officiate
+
+hw2test.sml:41.14-41.23 Error: unbound variable or constructor: officiate
+
+hw2test.sml:46.16-46.25 Error: unbound variable or constructor: officiate
+
+val it = () : unit
+
+- use "hw2test.sml";
+[opening hw2test.sml]
+[opening hw2.sml]
+hw2.sml:67.1-70.35 Error: unresolved flex record
+   (can't tell what fields there are besides #1)
+
+val it = () : unit
+
+- use "hw2test.sml";
+[opening hw2test.sml]
+[opening hw2.sml]
+hw2.sml:67.1-70.35 Error: unresolved flex record
+   (can't tell what fields there are besides #1)
+
+val it = () : unit
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2test.sml";
+[opening hw2test.sml]
+[opening hw2.sml]
+hw2.sml:67.1-70.35 Error: unresolved flex record
+   (can't tell what fields there are besides #1)
+
+val it = () : unit
+
+- datatype suit = Clubs | Diamonds | Hearts | Spades;
+datatype suit = Clubs | Diamonds | Hearts | Spades
+
+- datatype rank = Jack | Queen | King | Ace | Num of int;
+datatype rank = Ace | Jack | King | Num of int | Queen
+
+- ype card = suit * rank;
+type card = suit * rank
+
+- val c = (Clubs, Jack);
+val c = (Clubs,Jack) : suit * rank
+
+- #1 c;
+val it = Clubs : suit
+
+- #suit c;
+stdIn:7.1-7.8 Error: operator and operand do not agree [record labels]
+  operator domain: {suit:'Y; 'Z}
+  operand:         suit * rank
+  in expression:
+    (fn {suit=suit,...} => suit) c
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2test.sml";
+[opening hw2test.sml]
+[opening hw2.sml]
+hw2.sml:67.1-70.35 Error: unresolved flex record
+   (can't tell what fields there are besides #1)
+
+val it = () : unit
+
+- use "hw2test.sml";
+[opening hw2test.sml]
+[opening hw2.sml]
+val same_string = fn : string * string -> bool
+val all_except_option = fn : string * string list -> string list option
+val get_substitutions1 = fn : string list list * string -> string list
+val get_substitutions2 = fn : string list list * string -> string list
+val similar_names = fn
+  : string list list * {first:string, last:'a, middle:'b}
+     -> {first:string, last:'a, middle:'b} list
+datatype suit = Clubs | Diamonds | Hearts | Spades
+datatype rank = Ace | Jack | King | Num of int | Queen
+type card = suit * rank
+datatype color = Black | Red
+datatype move = Discard of suit * rank | Draw
+exception IllegalMove
+val card_color = fn : suit * 'a -> color
+
+val it = () : unit
+
+val test1_1 = true : bool
+
+val test1_2 = true : bool
+
+val test1_3 = true : bool
+
+val test1_4 = true : bool
+
+val test1_5 = true : bool
+
+val test2_1 = true : bool
+
+val test2_2 = true : bool
+
+val test2_3 = true : bool
+
+val test2_4 = true : bool
+
+val test3_1 = true : bool
+
+val test3_2 = true : bool
+
+val test3_3 = true : bool
+
+val test3_4 = true : bool
+
+val test4 = true : bool
+
+hw2test.sml:29.13-29.23 Error: unbound variable or constructor: card_value
+
+hw2test.sml:31.13-31.24 Error: unbound variable or constructor: remove_card
+
+hw2test.sml:33.13-33.27 Error: unbound variable or constructor: all_same_color
+
+hw2test.sml:35.13-35.22 Error: unbound variable or constructor: sum_cards
+
+hw2test.sml:37.14-37.19 Error: unbound variable or constructor: score
+
+hw2test.sml:39.14-39.23 Error: unbound variable or constructor: officiate
+
+hw2test.sml:41.14-41.23 Error: unbound variable or constructor: officiate
+
+hw2test.sml:46.16-46.25 Error: unbound variable or constructor: officiate
+
+val it = () : unit
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2test.sml";
+[opening hw2test.sml]
+[opening hw2.sml]
+val same_string = fn : string * string -> bool
+val all_except_option = fn : string * string list -> string list option
+val get_substitutions1 = fn : string list list * string -> string list
+val get_substitutions2 = fn : string list list * string -> string list
+val similar_names = fn
+  : string list list * {first:string, last:'a, middle:'b}
+     -> {first:string, last:'a, middle:'b} list
+datatype suit = Clubs | Diamonds | Hearts | Spades
+datatype rank = Ace | Jack | King | Num of int | Queen
+type card = suit * rank
+datatype color = Black | Red
+datatype move = Discard of suit * rank | Draw
+exception IllegalMove
+val card_color = fn : suit * 'a -> color
+
+val it = () : unit
+
+val test1_1 = true : bool
+
+val test1_2 = true : bool
+
+val test1_3 = true : bool
+
+val test1_4 = true : bool
+
+val test1_5 = true : bool
+
+val test2_1 = true : bool
+
+val test2_2 = true : bool
+
+val test2_3 = true : bool
+
+val test2_4 = true : bool
+
+val test3_1 = true : bool
+
+val test3_2 = true : bool
+
+val test3_3 = true : bool
+
+val test3_4 = true : bool
+
+val test4 = true : bool
+
+val test5_1 = true : bool
+
+val test5_2 = true : bool
+
+val test5_3 = true : bool
+
+val test5_4 = true : bool
+
+hw2test.sml:32.13-32.23 Error: unbound variable or constructor: card_value
+
+hw2test.sml:34.13-34.24 Error: unbound variable or constructor: remove_card
+
+hw2test.sml:36.13-36.27 Error: unbound variable or constructor: all_same_color
+
+hw2test.sml:38.13-38.22 Error: unbound variable or constructor: sum_cards
+
+hw2test.sml:40.14-40.19 Error: unbound variable or constructor: score
+
+hw2test.sml:42.14-42.23 Error: unbound variable or constructor: officiate
+
+hw2test.sml:44.14-44.23 Error: unbound variable or constructor: officiate
+
+hw2test.sml:49.16-49.25 Error: unbound variable or constructor: officiate
+
+val it = () : unit
+
+- use "hw2test.sml";
+[opening hw2test.sml]
+[opening hw2.sml]
+val same_string = fn : string * string -> bool
+val all_except_option = fn : string * string list -> string list option
+val get_substitutions1 = fn : string list list * string -> string list
+val get_substitutions2 = fn : string list list * string -> string list
+val similar_names = fn
+  : string list list * {first:string, last:'a, middle:'b}
+     -> {first:string, last:'a, middle:'b} list
+datatype suit = Clubs | Diamonds | Hearts | Spades
+datatype rank = Ace | Jack | King | Num of int | Queen
+type card = suit * rank
+datatype color = Black | Red
+datatype move = Discard of suit * rank | Draw
+exception IllegalMove
+val card_color = fn : suit * 'a -> color
+
+val it = () : unit
+
+val test1_1 = true : bool
+
+val test1_2 = true : bool
+
+val test1_3 = true : bool
+
+val test1_4 = true : bool
+
+val test1_5 = true : bool
+
+val test2_1 = true : bool
+
+val test2_2 = true : bool
+
+val test2_3 = true : bool
+
+val test2_4 = true : bool
+
+val test3_1 = true : bool
+
+val test3_2 = true : bool
+
+val test3_3 = true : bool
+
+val test3_4 = true : bool
+
+val test4 = true : bool
+
+val test5_1 = true : bool
+
+val test5_2 = true : bool
+
+val test5_3 = true : bool
+
+val test5_4 = true : bool
+
+hw2test.sml:32.13-32.23 Error: unbound variable or constructor: card_value
+
+hw2test.sml:34.13-34.24 Error: unbound variable or constructor: remove_card
+
+hw2test.sml:36.13-36.27 Error: unbound variable or constructor: all_same_color
+
+hw2test.sml:38.13-38.22 Error: unbound variable or constructor: sum_cards
+
+hw2test.sml:40.14-40.19 Error: unbound variable or constructor: score
+
+hw2test.sml:42.14-42.23 Error: unbound variable or constructor: officiate
+
+hw2test.sml:44.14-44.23 Error: unbound variable or constructor: officiate
+
+hw2test.sml:49.16-49.25 Error: unbound variable or constructor: officiate
+
+val it = () : unit
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2test.sml";
+[opening hw2test.sml]
+[opening hw2.sml]
+val same_string = fn : string * string -> bool
+val all_except_option = fn : string * string list -> string list option
+val get_substitutions1 = fn : string list list * string -> string list
+val get_substitutions2 = fn : string list list * string -> string list
+val similar_names = fn
+  : string list list * {first:string, last:'a, middle:'b}
+     -> {first:string, last:'a, middle:'b} list
+datatype suit = Clubs | Diamonds | Hearts | Spades
+datatype rank = Ace | Jack | King | Num of int | Queen
+type card = suit * rank
+datatype color = Black | Red
+datatype move = Discard of suit * rank | Draw
+exception IllegalMove
+val card_color = fn : suit * 'a -> color
+
+val it = () : unit
+
+val test1_1 = true : bool
+
+val test1_2 = true : bool
+
+val test1_3 = true : bool
+
+val test1_4 = true : bool
+
+val test1_5 = true : bool
+
+val test2_1 = true : bool
+
+val test2_2 = true : bool
+
+val test2_3 = true : bool
+
+val test2_4 = true : bool
+
+val test3_1 = true : bool
+
+val test3_2 = true : bool
+
+val test3_3 = true : bool
+
+val test3_4 = true : bool
+
+val test4 = true : bool
+
+val test5_1 = true : bool
+
+val test5_2 = true : bool
+
+val test5_3 = true : bool
+
+val test5_4 = true : bool
+
+hw2test.sml:32.13-32.23 Error: unbound variable or constructor: card_value
+
+hw2test.sml:34.13-34.24 Error: unbound variable or constructor: remove_card
+
+hw2test.sml:36.13-36.27 Error: unbound variable or constructor: all_same_color
+
+hw2test.sml:38.13-38.22 Error: unbound variable or constructor: sum_cards
+
+hw2test.sml:40.14-40.19 Error: unbound variable or constructor: score
+
+hw2test.sml:42.14-42.23 Error: unbound variable or constructor: officiate
+
+hw2test.sml:44.14-44.23 Error: unbound variable or constructor: officiate
+
+hw2test.sml:49.16-49.25 Error: unbound variable or constructor: officiate
+
+val it = () : unit
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2test.sml";
+[opening hw2test.sml]
+[opening hw2.sml]
+val same_string = fn : string * string -> bool
+val all_except_option = fn : string * string list -> string list option
+val get_substitutions1 = fn : string list list * string -> string list
+val get_substitutions2 = fn : string list list * string -> string list
+val similar_names = fn
+  : string list list * {first:string, last:'a, middle:'b}
+     -> {first:string, last:'a, middle:'b} list
+datatype suit = Clubs | Diamonds | Hearts | Spades
+datatype rank = Ace | Jack | King | Num of int | Queen
+type card = suit * rank
+datatype color = Black | Red
+datatype move = Discard of suit * rank | Draw
+exception IllegalMove
+val card_color = fn : suit * 'a -> color
+val card_value = fn : 'a * rank -> int
+
+val it = () : unit
+
+val test1_1 = true : bool
+
+val test1_2 = true : bool
+
+val test1_3 = true : bool
+
+val test1_4 = true : bool
+
+val test1_5 = true : bool
+
+val test2_1 = true : bool
+
+val test2_2 = true : bool
+
+val test2_3 = true : bool
+
+val test2_4 = true : bool
+
+val test3_1 = true : bool
+
+val test3_2 = true : bool
+
+val test3_3 = true : bool
+
+val test3_4 = true : bool
+
+val test4 = true : bool
+
+val test5_1 = true : bool
+
+val test5_2 = true : bool
+
+val test5_3 = true : bool
+
+val test5_4 = true : bool
+
+hw2test.sml:34.13-34.24 Error: unbound variable or constructor: remove_card
+
+hw2test.sml:36.13-36.27 Error: unbound variable or constructor: all_same_color
+
+hw2test.sml:38.13-38.22 Error: unbound variable or constructor: sum_cards
+
+hw2test.sml:40.14-40.19 Error: unbound variable or constructor: score
+
+hw2test.sml:42.14-42.23 Error: unbound variable or constructor: officiate
+
+hw2test.sml:44.14-44.23 Error: unbound variable or constructor: officiate
+
+hw2test.sml:49.16-49.25 Error: unbound variable or constructor: officiate
+
+val it = () : unit
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2test.sml";
+[opening hw2test.sml]
+[opening hw2.sml]
+val same_string = fn : string * string -> bool
+val all_except_option = fn : string * string list -> string list option
+val get_substitutions1 = fn : string list list * string -> string list
+val get_substitutions2 = fn : string list list * string -> string list
+val similar_names = fn
+  : string list list * {first:string, last:'a, middle:'b}
+     -> {first:string, last:'a, middle:'b} list
+datatype suit = Clubs | Diamonds | Hearts | Spades
+datatype rank = Ace | Jack | King | Num of int | Queen
+type card = suit * rank
+datatype color = Black | Red
+datatype move = Discard of suit * rank | Draw
+exception IllegalMove
+val card_color = fn : suit * 'a -> color
+val card_value = fn : 'a * rank -> int
+
+val it = () : unit
+
+val test1_1 = true : bool
+
+val test1_2 = true : bool
+
+val test1_3 = true : bool
+
+val test1_4 = true : bool
+
+val test1_5 = true : bool
+
+val test2_1 = true : bool
+
+val test2_2 = true : bool
+
+val test2_3 = true : bool
+
+val test2_4 = true : bool
+
+val test3_1 = true : bool
+
+val test3_2 = true : bool
+
+val test3_3 = true : bool
+
+val test3_4 = true : bool
+
+val test4 = true : bool
+
+val test5_1 = true : bool
+
+val test5_2 = true : bool
+
+val test5_3 = true : bool
+
+val test5_4 = true : bool
+
+val test6_1 = true : bool
+
+val test6_2 = true : bool
+
+val test6_3 = true : bool
+
+hw2test.sml:36.13-36.24 Error: unbound variable or constructor: remove_card
+
+hw2test.sml:38.13-38.27 Error: unbound variable or constructor: all_same_color
+
+hw2test.sml:40.13-40.22 Error: unbound variable or constructor: sum_cards
+
+hw2test.sml:42.14-42.19 Error: unbound variable or constructor: score
+
+hw2test.sml:44.14-44.23 Error: unbound variable or constructor: officiate
+
+hw2test.sml:46.14-46.23 Error: unbound variable or constructor: officiate
+
+hw2test.sml:51.16-51.25 Error: unbound variable or constructor: officiate
+
+val it = () : unit
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:83.13-83.16 Error: unbound type constructor: cs'
+
+hw2.sml:84.12-84.15 Error: unbound variable or constructor: cs'
+
+hw2.sml:85.28-85.31 Error: unbound variable or constructor: cs'
+
+val it = () : unit
+
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:83.27 Warning: calling polyEqual
+
+val same_string = fn : string * string -> bool
+val all_except_option = fn : string * string list -> string list option
+val get_substitutions1 = fn : string list list * string -> string list
+val get_substitutions2 = fn : string list list * string -> string list
+val similar_names = fn
+  : string list list * {first:string, last:'a, middle:'b}
+     -> {first:string, last:'a, middle:'b} list
+datatype suit = Clubs | Diamonds | Hearts | Spades
+datatype rank = Ace | Jack | King | Num of int | Queen
+type card = suit * rank
+datatype color = Black | Red
+datatype move = Discard of suit * rank | Draw
+exception IllegalMove
+val card_color = fn : suit * 'a -> color
+val card_value = fn : 'a * rank -> int
+val remove_card = fn : ''a list * ''a * exn -> ''a list
+
+val it = () : unit
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2test.sml";
+[opening hw2test.sml]
+[opening hw2.sml]
+hw2.sml:83.27 Warning: calling polyEqual
+
+val same_string = fn : string * string -> bool
+val all_except_option = fn : string * string list -> string list option
+val get_substitutions1 = fn : string list list * string -> string list
+val get_substitutions2 = fn : string list list * string -> string list
+val similar_names = fn
+  : string list list * {first:string, last:'a, middle:'b}
+     -> {first:string, last:'a, middle:'b} list
+datatype suit = Clubs | Diamonds | Hearts | Spades
+datatype rank = Ace | Jack | King | Num of int | Queen
+type card = suit * rank
+datatype color = Black | Red
+datatype move = Discard of suit * rank | Draw
+exception IllegalMove
+val card_color = fn : suit * 'a -> color
+val card_value = fn : 'a * rank -> int
+val remove_card = fn : ''a list * ''a * exn -> ''a list
+
+val it = () : unit
+
+val test1_1 = true : bool
+
+val test1_2 = true : bool
+
+val test1_3 = true : bool
+
+val test1_4 = true : bool
+
+val test1_5 = true : bool
+
+val test2_1 = true : bool
+
+val test2_2 = true : bool
+
+val test2_3 = true : bool
+
+val test2_4 = true : bool
+
+val test3_1 = true : bool
+
+val test3_2 = true : bool
+
+val test3_3 = true : bool
+
+val test3_4 = true : bool
+
+val test4 = true : bool
+
+val test5_1 = true : bool
+
+val test5_2 = true : bool
+
+val test5_3 = true : bool
+
+val test5_4 = true : bool
+
+val test6_1 = true : bool
+
+val test6_2 = true : bool
+
+val test6_3 = true : bool
+
+val test7_1 = true : bool
+
+hw2test.sml:37.5-37.88 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: (suit * rank) list * (suit * rank) list
+  operand:         (suit * rank) list * exn
+  in expression:
+    remove_card ((Diamonds,Ace) :: nil,(Hearts,Ace),IllegalMove) = IllegalMove
+
+val it = () : unit
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2test.sml";
+stdIn:1.6-1.18 Error: unclosed string
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2test.sml";
+[opening hw2test.sml]
+[opening hw2.sml]
+hw2.sml:83.27 Warning: calling polyEqual
+
+val same_string = fn : string * string -> bool
+val all_except_option = fn : string * string list -> string list option
+val get_substitutions1 = fn : string list list * string -> string list
+val get_substitutions2 = fn : string list list * string -> string list
+val similar_names = fn
+  : string list list * {first:string, last:'a, middle:'b}
+     -> {first:string, last:'a, middle:'b} list
+datatype suit = Clubs | Diamonds | Hearts | Spades
+datatype rank = Ace | Jack | King | Num of int | Queen
+type card = suit * rank
+datatype color = Black | Red
+datatype move = Discard of suit * rank | Draw
+exception IllegalMove
+val card_color = fn : suit * 'a -> color
+val card_value = fn : 'a * rank -> int
+val remove_card = fn : ''a list * ''a * exn -> ''a list
+
+val it = () : unit
+
+val test1_1 = true : bool
+
+val test1_2 = true : bool
+
+val test1_3 = true : bool
+
+val test1_4 = true : bool
+
+val test1_5 = true : bool
+
+val test2_1 = true : bool
+
+val test2_2 = true : bool
+
+val test2_3 = true : bool
+
+val test2_4 = true : bool
+
+val test3_1 = true : bool
+
+val test3_2 = true : bool
+
+val test3_3 = true : bool
+
+val test3_4 = true : bool
+
+val test4 = true : bool
+
+val test5_1 = true : bool
+
+val test5_2 = true : bool
+
+val test5_3 = true : bool
+
+val test5_4 = true : bool
+
+val test6_1 = true : bool
+
+val test6_2 = true : bool
+
+val test6_3 = true : bool
+
+val test7_1 = true : bool
+
+hw2test.sml:37.5-37.88 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: (suit * rank) list * (suit * rank) list
+  operand:         (suit * rank) list * exn
+  in expression:
+    remove_card ((Diamonds,Ace) :: nil,(Hearts,Ace),IllegalMove) = IllegalMove
+
+val it = () : unit
+
+- use "hw2test.sml";
+[opening hw2test.sml]
+[opening hw2.sml]
+hw2.sml:83.27 Warning: calling polyEqual
+
+val same_string = fn : string * string -> bool
+val all_except_option = fn : string * string list -> string list option
+val get_substitutions1 = fn : string list list * string -> string list
+val get_substitutions2 = fn : string list list * string -> string list
+val similar_names = fn
+  : string list list * {first:string, last:'a, middle:'b}
+     -> {first:string, last:'a, middle:'b} list
+datatype suit = Clubs | Diamonds | Hearts | Spades
+datatype rank = Ace | Jack | King | Num of int | Queen
+type card = suit * rank
+datatype color = Black | Red
+datatype move = Discard of suit * rank | Draw
+exception IllegalMove
+val card_color = fn : suit * 'a -> color
+val card_value = fn : 'a * rank -> int
+val remove_card = fn : ''a list * ''a * exn -> ''a list
+
+val it = () : unit
+
+val test1_1 = true : bool
+
+val test1_2 = true : bool
+
+val test1_3 = true : bool
+
+val test1_4 = true : bool
+
+val test1_5 = true : bool
+
+val test2_1 = true : bool
+
+val test2_2 = true : bool
+
+val test2_3 = true : bool
+
+val test2_4 = true : bool
+
+val test3_1 = true : bool
+
+val test3_2 = true : bool
+
+val test3_3 = true : bool
+
+val test3_4 = true : bool
+
+val test4 = true : bool
+
+val test5_1 = true : bool
+
+val test5_2 = true : bool
+
+val test5_3 = true : bool
+
+val test5_4 = true : bool
+
+val test6_1 = true : bool
+
+val test6_2 = true : bool
+
+val test6_3 = true : bool
+
+val test7_1 = true : bool
+
+val test7_3 = true : bool
+
+hw2test.sml:41.13-41.27 Error: unbound variable or constructor: all_same_color
+
+hw2test.sml:43.13-43.22 Error: unbound variable or constructor: sum_cards
+
+hw2test.sml:45.14-45.19 Error: unbound variable or constructor: score
+
+hw2test.sml:47.14-47.23 Error: unbound variable or constructor: officiate
+
+hw2test.sml:49.14-49.23 Error: unbound variable or constructor: officiate
+
+hw2test.sml:54.16-54.25 Error: unbound variable or constructor: officiate
+
+val it = () : unit
+
+- 
+
+Process sml finished

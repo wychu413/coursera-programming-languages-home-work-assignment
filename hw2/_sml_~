@@ -1,0 +1,87 @@
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:66.8-66.10 Error: unbound type constructor: xs
+
+hw2.sml:66.29-66.31 Error: unbound variable or constructor: xs
+
+hw2.sml:66.59-66.91 Error: operator and operand do not agree [type mismatch]
+  operator domain: string list list * string
+  operand:         [E] * {last:'Y, middle:'X; 'Z}
+  in expression:
+    get_substitutions2 (x,full_name)
+
+val it = () : unit
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:66.8-66.10 Error: unbound type constructor: xs
+
+hw2.sml:66.29-66.31 Error: unbound variable or constructor: xs
+
+hw2.sml:66.59-66.91 Error: operator and operand do not agree [type mismatch]
+  operator domain: string list list * string
+  operand:         [E] * {last:'Y, middle:'X; 'Z}
+  in expression:
+    get_substitutions2 (x,full_name)
+
+val it = () : unit
+
+- [] @ [["123"]];
+val it = [["123"]] : string list list
+
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:66.8-66.10 Error: unbound type constructor: xs
+
+hw2.sml:66.29-66.31 Error: unbound variable or constructor: xs
+
+hw2.sml:66.59-66.91 Error: operator and operand do not agree [type mismatch]
+  operator domain: string list list * string
+  operand:         [E] * {last:'Y, middle:'X; 'Z}
+  in expression:
+    get_substitutions2 (x,full_name)
+
+val it = () : unit
+
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:66.8-66.10 Error: unbound type constructor: xs
+
+hw2.sml:66.29-66.31 Error: unbound variable or constructor: xs
+
+hw2.sml:66.59-66.91 Error: operator and operand do not agree [type mismatch]
+  operator domain: string list list * string
+  operand:         [E] * {last:'Y, middle:'X; 'Z}
+  in expression:
+    get_substitutions2 (x,full_name)
+
+val it = () : unit
+
+- 
+
+Process sml finished
+Standard ML of New Jersey (64-bit) v110.98.1 [built: Tue Aug 25 16:59:36 2020]
+- use "hw2.sml";
+[opening hw2.sml]
+hw2.sml:51.8-51.10 Error: unbound type constructor: xs
+
+hw2.sml:51.29-51.31 Error: unbound variable or constructor: xs
+
+hw2.sml:51.15-51.91 Error: operator and operand do not agree [tycon mismatch]
+  operator domain: 'Z list
+  operand:         string list list * string -> string list
+  in expression:
+    mk_name_list get_substitutions2
+
+hw2.sml:43.1-52.8 Error: unresolved flex record (need to know the names of ALL the fields
+ in this context)
+  type: {last:_, middle:_; 'Z}
+
+val it = () : unit
+
+- 
